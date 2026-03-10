@@ -1,0 +1,5 @@
+package POO_WORKSHOP;
+
+public enum StatusVehicle {
+    AVAILABLE,RESERVED,IN_TRANSIT,IN_MAINTENANCE;
+}

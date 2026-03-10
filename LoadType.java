@@ -1,0 +1,5 @@
+package POO_WORKSHOP;
+
+public enum LoadType {
+    HEAVY_LOAD,REFRIGERATED_LOAD,LIGHT_LOAD
+}
