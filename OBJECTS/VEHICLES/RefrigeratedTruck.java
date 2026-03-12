@@ -1,4 +1,7 @@
-package POO_WORKSHOP;
+package POO_WORKSHOP.OBJECTS.VEHICLES;
+
+import POO_WORKSHOP.ENUMERATIONS.LoadType;
+import POO_WORKSHOP.ENUMERATIONS.StatusVehicle;
 
 public class RefrigeratedTruck extends Vehicle {
     private int travelTemperature;

@@ -1,4 +1,19 @@
-package POO_WORKSHOP;
+package POO_WORKSHOP.LOGIC;
+
+import POO_WORKSHOP.ENUMERATIONS.LoadType;
+import POO_WORKSHOP.ENUMERATIONS.StatusVehicle;
+import POO_WORKSHOP.EXCEPTIONS.NoAvailableQualifiedDriversException;
+import POO_WORKSHOP.EXCEPTIONS.NoAvailableQualifiedRoutesException;
+import POO_WORKSHOP.EXCEPTIONS.NoAvailableQualifiedVehiclesException;
+import POO_WORKSHOP.EXCEPTIONS.TripNotFoundException;
+import POO_WORKSHOP.OBJECTS.Driver;
+import POO_WORKSHOP.OBJECTS.Route;
+import POO_WORKSHOP.OBJECTS.Trip;
+import POO_WORKSHOP.OBJECTS.VEHICLES.HeavyLoadTruck;
+import POO_WORKSHOP.OBJECTS.VEHICLES.PickupTruck;
+import POO_WORKSHOP.OBJECTS.VEHICLES.RefrigeratedTruck;
+import POO_WORKSHOP.OBJECTS.VEHICLES.Vehicle;
+import POO_WORKSHOP.TOOLS.TransportUtils;
 
 public class TransportManager {
     private Driver[] drivers = {

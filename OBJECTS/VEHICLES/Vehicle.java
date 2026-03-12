@@ -1,4 +1,8 @@
-package POO_WORKSHOP;
+package POO_WORKSHOP.OBJECTS.VEHICLES;
+
+import POO_WORKSHOP.TOOLS.Availability;
+import POO_WORKSHOP.ENUMERATIONS.LoadType;
+import POO_WORKSHOP.ENUMERATIONS.StatusVehicle;
 
 public abstract class Vehicle implements Availability {
     private String licensePlate;

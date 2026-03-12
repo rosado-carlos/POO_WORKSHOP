@@ -1,4 +1,4 @@
-package POO_WORKSHOP;
+package POO_WORKSHOP.EXCEPTIONS;
 
 public class NoAvailableQualifiedRoutesException extends Exception {
     public NoAvailableQualifiedRoutesException(String mensaje) {

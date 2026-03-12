@@ -1,4 +1,7 @@
-package POO_WORKSHOP;
+package POO_WORKSHOP.OBJECTS;
+
+import POO_WORKSHOP.TOOLS.Availability;
+import POO_WORKSHOP.ENUMERATIONS.LoadType;
 
 public class Driver implements Availability {
     private String name;

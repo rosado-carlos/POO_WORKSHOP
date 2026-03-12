@@ -1,4 +1,4 @@
-package POO_WORKSHOP;
+package POO_WORKSHOP.OBJECTS;
 
 import java.util.Arrays;
 

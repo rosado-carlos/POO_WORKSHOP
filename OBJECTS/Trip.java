@@ -1,4 +1,8 @@
-package POO_WORKSHOP;
+package POO_WORKSHOP.OBJECTS;
+
+import POO_WORKSHOP.ENUMERATIONS.LoadType;
+import POO_WORKSHOP.OBJECTS.VEHICLES.RefrigeratedTruck;
+import POO_WORKSHOP.OBJECTS.VEHICLES.Vehicle;
 
 import java.time.LocalDate;
 

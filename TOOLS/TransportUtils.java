@@ -1,4 +1,6 @@
-package POO_WORKSHOP;
+package POO_WORKSHOP.TOOLS;
+
+import POO_WORKSHOP.OBJECTS.Trip;
 
 import java.util.Arrays;
 
